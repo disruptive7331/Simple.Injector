@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{67eeb79a-d67e-416c-855d-9e4a2de5d183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Main">
+      <UniqueIdentifier>{f5178ff0-f11b-41d5-a739-c8af0f0a250e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Common">
+      <UniqueIdentifier>{35691fdf-d097-4d4e-93c6-3c2fdb9ee2f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Utilities">
+      <UniqueIdentifier>{6dac8105-715f-4042-9b88-16c8da35785d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Console">
+      <UniqueIdentifier>{db8eafad-7069-46be-857e-78e8ed5ea3c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\NativeInject">
+      <UniqueIdentifier>{e49baa99-2a3c-4ba1-aafc-a640cfbf4a49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Console\Console.cpp">
+      <Filter>Core\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Main.cpp">
+      <Filter>Core\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeInject\NativeInject.cpp">
+      <Filter>Core\NativeInject</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Utilities.cpp">
+      <Filter>Core\Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Console\Console.hpp">
+      <Filter>Core\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeInject\NativeInject.hpp">
+      <Filter>Core\NativeInject</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Utilities.hpp">
+      <Filter>Core\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Common.hpp">
+      <Filter>Core\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
